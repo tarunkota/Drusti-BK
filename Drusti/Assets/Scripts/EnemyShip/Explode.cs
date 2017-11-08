@@ -24,6 +24,7 @@ public class Explode : MonoBehaviour {
 		Destroy(this.gameObject);
 		Game1Controller.instance.spawnEnemy();
 		MissileLauncher.instance.elapsedTime = MissileLauncher.instance.timeDelay;
+		Sounds.instance.playExplosion();
 	}
 
 

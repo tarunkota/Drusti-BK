@@ -41,11 +41,15 @@ public class MissileLauncher : MonoBehaviour {
 	void launchMissile(Direction keyPressed)
 	{
 		elapsedTime = 0.0f;
-		enemyDirection = GameObject.FindWithTag("Enemy").GetComponent<Enemy>().direction;
+		GameObject e =GameObject.FindWithTag("Enemy");
+		if(e==null)
+			return;
+		enemyDirection = e.GetComponent<Enemy>().direction;
 		MissileGuidance m = Instantiate(missile) as MissileGuidance;
 		m.transform.position = this.transform.position;
 		m.correct =(keyPressed ==enemyDirection);
 		Destroy(m.gameObject,timeDelay);
+		Game1Controller.instance.missilesLaunched++;
 	}
 
 
