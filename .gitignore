@@ -1,0 +1,66 @@
+# =============== #
+# Our Files       #
+# =============== #
+
+*.meta
+Graphics
+Drusti/Assembly-CSharp-Editor-firstpass.csproj
+Drusti/Assembly-CSharp-firstpass.csproj
+Drusti/Assembly-CSharp.csproj
+Drusti/Assets/Standard Assets/
+
+
+
+
+
+
+
+# =============== #
+# Unity generated #
+# =============== #
+Drusti/[Tt]emp/
+Drusti/[Oo]bj/
+Drusti/[Bb]uild
+Drusti/[Bb]uilds/
+Drusti/[Ll]ibrary/
+Drusti/sysinfo.txt
+Drusti/*.stackdump
+Drusti/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+Drusti/.vs/
+Drusti/.vscode
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Drusti/Icon?
+Drusti/ehthumbs.db
+Drusti/[Tt]humbs.db
+Drusti/[Dd]esktop.ini
+Drusti/Corridor/Library/ShaderCache/
+Drusti/Corridor/Library/metadata/
+
+
