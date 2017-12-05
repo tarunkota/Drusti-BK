@@ -9,8 +9,8 @@ public class RandomMovement : MonoBehaviour {
 	public float MaxY;
 
 
-	float minT;
-	float maxT;
+	public float minT;
+	public float maxT;
 	public float maxAngle;
 	public float speed;
 
@@ -24,7 +24,7 @@ public class RandomMovement : MonoBehaviour {
 		// x = 2cm/s
 		//x = 140cm/physicalhe
 		int sc = PlayerPrefs.GetInt("screenSize",0);
-		float acuity = PlayerPrefs.GetInt("currentAcuity",20);
+		float acuity = PlayerPrefs.GetInt("currentAcuity",200);
 		float screenSize=0.0f;
 		acuity = 200/acuity;
 

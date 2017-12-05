@@ -14,3 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LandingPage.unity
     guid: 86b4a2a2dd4ee45dba93f8e517366083
+  - enabled: 1
+    path: Assets/Scenes/LandingPage2.unity
+    guid: 93392fa6afa584c269cfb6ccfd78adb5
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 72c836c9eb44e47ec830be984d140bf4

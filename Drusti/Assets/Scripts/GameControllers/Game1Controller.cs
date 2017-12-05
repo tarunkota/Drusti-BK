@@ -20,7 +20,7 @@ public class Game1Controller : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		maxCounter = PlayerPrefs.GetInt("game1no",11);
+		maxCounter = PlayerPrefs.GetInt("game1no",10);
 	
 		counter=0;
 	
@@ -46,7 +46,6 @@ public class Game1Controller : MonoBehaviour {
 		scoreBoard.text = "Score: "+counter;
 		
 		counter++;	
-		
 	}
 
 	public void gameComplete()
